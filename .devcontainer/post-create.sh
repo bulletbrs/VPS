@@ -20,4 +20,4 @@ vncserver -kill :1 >/dev/null 2>&1 || true
 vncserver :1 -geometry 1280x800 -depth 24
 
 # Запускаем noVNC
-websockify --web /usr/share/novnc 6080 localhost:5901 &
+websockify --web /usr/share/novnc/ 6080 localhost:5901 &
