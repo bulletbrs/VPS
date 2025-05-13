@@ -1,0 +1,8 @@
+{
+    "name": "GUI Codespace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [5901],
+    "postCreateCommand": "bash .devcontainer/post-create.sh"
+}
